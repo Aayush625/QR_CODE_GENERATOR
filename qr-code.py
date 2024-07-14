@@ -1,6 +1,6 @@
 import pyqrcode
 
-my_url = 'https://www.linkedin.com/in/aayush-sinha-97b425240/'
+my_url = 'www.google.com'
 url = pyqrcode.create(my_url)
 
 url.svg("connect with me")
